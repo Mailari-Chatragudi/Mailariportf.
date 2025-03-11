@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    background-image:linear-gradient(black,gold);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#navbar-transfarent{
+    background-color: rgb(22, 21, 19);
+}
+#logo-name {
+    font-family: "Playfair display";
+    font-weight: 800;
+    color: #fcff3d;
+    font-size: 27px;
+}
+
+#tex-nav {
+    font-family: "Sans-Serif";
+    font-weight: bold;
+    font-style: italic;
+    color: aqua;
+    transition: 0.5s ease-in-out;
+}
+#tex-nav:hover{
+    color: yellow;
+}
+.Myimage {
+    width: 450px;
+    height: 450pxx;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    overflow: hidden;
+
+}
+.heading-card {
+    margin-top: 30px;
+}
+
+.name {
+    color: #ffffff;
+    font-family: "Sans-Serif";
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.heading-card span {
+    color: yellow;
+}
+
+.name-heading {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.name-heading span {
+    font-size: 80px;
+}
+
+.contact-button {
+    background-color: #ff7f50;
+    width: 120px;
+    height: 50px;
+    color: black;
+    border-width: 0px;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: 10%;
+    transition: 0.5s ease-in-out;
+}
+.contact-button:hover{
+    background-color: #97f3f2;
+}
+#sectionabout {
+    background-color: #1f2933;
+    height: 100%;
+}
+
+.about-heading {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 55px;
+
+}
+
+.about-description-heading {
+    color: #f49541;
+    font-size: 25px;
+    font-family: "Montserrate";
+    margin-bottom: 14px;
+}
+
+.about-description-para {
+    color: #ffffff;
+    font-family: "Sans-Serif";
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+.about-card-heading {
+    color: #f49541;
+    font-size: 27px;
+    font-family: "Montserrate";
+    margin-bottom: 14px;
+}
+
+.what-ido-list {
+    list-style: circle;
+    font-family: "Sans-Serif";
+    font: 20px;
+    color: white;
+}
+
+.what-ido-list span {
+    color: #cced00;
+    font-family: "Playfair display";
+
+}
+
+#sectionskill {
+    background-color: #3e4c59;
+    height: 100%;
+}
+
+.skill-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+.skill-card:hover{
+    background-color: greenyellow;
+}
+.skill-logo {
+    width: 90px;
+    height: 90px;
+}
+
+.skill-name {
+    font-family: "Sans-Serif";
+    font-size: 22px;
+    color: #323f4b;
+}
+
+.about-skill {
+    font-family: "Sans-Serif";
+    color: #323f4b;
+    font-size: 12px;
+}
+
+#sectionprojects {
+    background-color: #f9fbfe;
+
+}
+
+.project-card {
+    background-color: #323f4b;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project-heading {
+    color: #1f2933;
+}
+
+.project-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-name {
+    color: #d2d3ce;
+    font-family: "Sans-Serif";
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.about-project {
+    color: #d2d3ce;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.site-link {
+    margin-left: 12px;
+    background-color: #fff157;
+    width: 100px;
+    height: 40px;
+    color: #0a0a0a;
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    transition: 0.1s ease-in-out;
+}
+.site-link:hover{
+    background-color: rgb(133, 231, 244);
+}
+
+#sectioncontact {
+    background-image: linear-gradient(to right, #f3f397, #97f3f2);
+}
+
+.image-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contact-heading {
+    font-family: "Playfair display";
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.contact-name {
+    font-family: "Playfair display";
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.icon-container {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #3e4c59;
+    margin: 5px;
+}
+
+.contact-icon {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-bottom: 6px;
+    color: #fcff3d;
+    transition: 0.5s ease-in-out;
+}
+.contact-icon:hover{
+    color: rgb(255, 0, 234);
+}
+    
